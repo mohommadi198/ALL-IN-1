@@ -1,0 +1,467 @@
+<html>
+<head>
+           <!-- CSS -->
+           <link rel="stylesheet" href="style.css">
+    <style>
+     body{
+   height: 100%;
+   width: 100%;
+   background-color: #ff8585;
+   font-family: monospace;
+   color: rgb(0, 0, 0);
+}
+   *{
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   list-style: none;
+   box-sizing: border-box;
+   }
+   NAV{
+    height: 12.9VW;
+    width: 100%;  
+    border-color: #ffffff;
+    background-color: rgb(41,41,41);   
+   }   
+   #H1{  
+    font-size: 4.8vw;   
+    font-style: italic;   
+    transform: 3s;
+    color: gold;
+    animation-name: ami;
+    animation-duration: 3s;
+    animation-delay: 0.20s;
+   }
+   @keyframes ami{
+   0%{
+    font-size: 6vw;
+   left: 0;
+   color: aqua;
+   top: 0;
+   }
+   50%{
+    font-size: 5.5vw;
+    color: gold;
+    margin-left:8vw;
+   }
+   100%{
+   left: 100;
+   color: rgb(248, 63, 42);
+   top: 50;
+   font-size: 3.88vw;
+   }
+   }
+   label.LOGO{
+   color: rgb(255, 255, 255);
+   font-size: 4vw;
+   line-height: 9vw;
+   padding: 0 10vw;
+   font-weight: BOLD;
+   }
+   NAV UL{
+   float: right;
+   margin-right: 0svw;
+   }
+   nav ul li{
+   font-size: 50PX;
+   display: inline-block;
+   line-height: 80px;
+   margin: 2.3vw;
+   }
+   nav ul li a{
+   color: rgb(255, 147, 135);
+   font-size:3.2vw;
+   margin-bottom: 51VW;
+   padding: 2vw ,3vw;
+   border-radius: 3px;
+   text-transform: uppercase; 
+   }
+   nav ul li a:hover{
+   color: rgb(0, 0, 0);
+   background-color: aqua;
+   border-style:double;
+   border-color:#000000 ;
+   border-radius: 9VW;
+   }
+   LI UL A{
+ margin-bottom: 15VW;
+  }
+   checkbtn{
+   font-size: 30px;
+   color: #ff8f8f;
+   float: right;
+   line-height: 80px;
+   margin-right: 40px;
+   cursor: pointer;
+   display: none;
+     border-radius: 5VW;
+    }
+     #cheak{
+     display: none;
+     }
+     @media (max-width:952px) {
+     label.logo{
+         font-size: 30px;
+         padding-left: 5vw;
+     }
+     nav ul li a{
+         font-size: 16px;
+     }
+     }
+     @media (max-width:952px){
+     .checkbtn{
+         display: block;
+     }
+           ul{
+               position: fixed;
+               width: 100%;
+          height: 100vh;
+          background: #5f5f5f;
+          top: 80px;
+          left: 0;
+          text-align: center;
+      transform: all.5s;
+      }
+      nav ul li{
+          display: block;
+          margin: 50px 0;
+          line-height: 30px;
+      }
+      nav ul li a{
+          font-size: 20px;
+      }
+      a:hover,a.active{
+          background: none;
+          color: #ffffff;
+      }
+      #check:checked~ul{
+          left: 0;
+      }
+      }
+      #HH{
+       font-style: italic;
+       margin-left: 3vw;
+       margin-top: 6.3vw;
+       font-size: 4vw;
+       height: 9.3vw;
+       width: 28.5vw;
+       background-color: #272626;
+       border-color: #ffffff;
+       border-style: double;
+       color: #ffffff;
+       border-radius: 5VW;
+       animation-name: HH;
+       animation-duration: 3s;
+       animation-delay: 0.20s;
+      }
+      @keyframes HH{
+      0%{
+        font-size: 5vw;
+      left: 0;
+      background-color:rgb(21, 75, 0);
+      color: #ffffff;
+      top: 0;
+      }
+      50%{
+        font-size: 5vw;
+        background-color:gold ;
+        color: #000000;
+      }
+      52%{
+        background-color: #ff8f8f;
+        color: #ff8f8f;
+      }
+      60%{
+        font-size: 3.9vw;
+        background-color: crimson;
+        color: #000000;
+      }
+      80%{
+        background-color: navy;
+        color: #ffffff;
+      }
+      82%{
+        background-color: #ff8f8f;
+        color: #ff8f8f;
+      }
+      95%{
+        background-color: tomato;
+        color: #ffffff;
+        font-size: 4.5vw;
+      }
+      100%{
+      left: 100;
+      background-color: rgb(5, 44, 88);
+      color:white;
+      top: 50;
+      font-size: 5vw;
+      }
+      to{
+        background-color: sienna;
+        color: wheat;
+        font-size: 5vw;
+      }
+      FORM{
+        background-color:#000000;
+        color: #ffffff;
+        font-size: 5vw;
+      }
+      }
+      #HH:hover{
+      background-color: #0051ff;
+      transform: 5S;  
+      transition: all; 
+      border-color: #000000;
+      border-style: double; 
+      color: gold;
+      }
+      h5{
+      font-style: italic;
+      font-size: 0.8vw;
+      margin: 1.9vw;
+      }
+      #KK{
+      font-style: italic;
+      text-shadow: #000000;
+      font-size:2.5vw;
+      color: #000000;   
+      }
+      #P{
+      margin-top: 5%;
+      font-size: 2.2vw;
+      font-style: italic;
+      }
+      #DD{
+        margin-top: 2VW;
+      font-style: italic;
+      font-display: 120%;
+      font-size:5vw;
+      color: #530000d5;
+      }
+      .CD{
+      background-color: rgb(30, 53, 53);
+      font-family: 'Courier New', Courier, monospace;
+      font-display: 100%;
+      text-decoration: #ffd900;
+      border-radius: 13VW;                                                                    
+      height: auto;                                                                    
+     width: auto;                                                                    
+     }                                                                    
+     #d{                                                                    
+     color: #a0fcff;                                                                    
+     margin-top: 2.6vw;                                                                    
+     align-items: center;                                                                    
+     font-size: 3.3vw;
+     }                                                    
+     #g{                                                    
+        font-size: 4.5vw;                                                    
+         color: gold;                                                    
+      }    
+      h2{
+        font-size: 3.2vw;
+      }
+      #alert{
+        background-color: #974b4bd5;
+      }
+      #LI{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 2.5VW;
+      }
+     .ON{
+      border: #000000;
+      height: auto;
+      width: auto;
+     }
+          </style>
+       <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+      </head>
+      <body>
+         <div class="NAV">
+         <nav>
+          <h1 id="h1"> ALL IN ONE</h1>
+         <UL>
+          <LI id="active"><A href="file:///C:/Users/user/Desktop/AJMERE/ANIMATION.HTML">ABOUT</A></LI> 
+          <LI><A href="file:///C:/Users/user/Desktop/AJMERE/SERVICES.HTML">SERVICES</A></LI> 
+          <LI><A href="file:///C:/Users/user/Desktop/AJMERE/CONTACT%20copy.html">CONTACT</A></LI>
+         </UL>
+         </nav>
+         </div>
+      </div>
+      <marquee id="RR" behavior="loop" direction="left" scroll amount="1S">
+      <H1 id="DD">HI MY VEWIRS YOU CAN SHOW ALL WEBSIT AND YOU WILL ENTERTENT</H1>
+      <CENTER>
+      <H1 id="LI">CLICK BUTTON AND GO TO THE NAME OF BUTTON WEBSITS</H1>
+    </CENTER>  
+    </marquee>
+      <div class="ON">
+       <A href="https://www.google.com/search?q=GOOGL&rlz=1C1OKWM_enIN1084IN1084&oq=GOOGL&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAjIHCAMQABiPAjIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQRRhB0gEJMjA4NjJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">
+           <BUTTON id="HH">GOOGLE</BUTTON></A>
+       <A href="https://www.google.com/search?q=amazon&rlz=1C1OKWM_enIN1084IN1084&oq=AMA&gs_lcrp=EgZjaHJvbWUqBggCEEUYOzIGCAAQRRg5MgYIARBFGEAyBggCEEUYOzIHCAMQABiPAjIHCAQQABiPAtIBCTE1NTQyajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">
+           <BUTTON id="HH">AMAZON</BUTTON></A>
+           <A href="https://www.flipkart.com/">
+            <button id="HH">flipkart</button>
+           </A>
+           <A href="https://www.meesho.com/">
+            <button id="HH">meesho</button>
+           </A>
+           <A href="https://www.jiomart.com/?gclid=EAIaIQobChMI09_tn_2YgwMVE2ErCh1XHwPPEAAYASAAEgIDGPD_BwE">
+            <BUtton id="HH">jio mart</BUtton>
+           </A>
+           <A href="https://www.instagram.com/">
+            <BUtton id="HH">instagram</BUtton>
+           </A>
+           <A href="https://www.facebook.com/">
+            <BUTTon id="HH">facebook</BUTTon>
+           </A>
+           <A href="https://www.hotstar.com/in/home?ref=%2Fin">
+            <BUTTon id="HH">hotstar</BUTTon>
+           </A>
+           <A href="https://ai.google/">
+            <BUTTon id="HH">GOOGL AI</BUTTon>
+           </A>
+           <A href="https://www.shabdkosh.com/">
+            <BUtton id="HH"> dictionary</BUtton>
+           </A>
+           <A href="https://web.telegram.org/k/">
+            <BUTTon id="HH">telegram</BUTTon>
+           </A>
+       <A href="https://youtube.com/">
+           <BUTTON id="HH">YOU TUBE</BUTTON>
+        </A>
+       <A href="file:///C:/Users/user/Desktop/AJMERE/my shop.HTML">
+           <button id="HH">MY WEB</button>
+          </A>
+       <A href="file:///C:/Users/user/Desktop/AJMERE/CHAT.HTML" >
+           <button id="HH">CHAT ME</button>
+          </A>
+       <A href="file:///C:/Users/user/Desktop/AJMERE/CODE.HTML">
+           <button id="HH">CODE Editor</button>
+          </A>
+       <A href="file:///C:/Users/user/Desktop/AJMERE/game%202.html">
+           <button id="HH">GAME</button>
+          </A>
+           <A href="file:///C:/Users/user/Desktop/AJMERE/E%20CODING.HTML#.html">
+            <button id="HH">E-CODING</button>
+          </A>
+       <A href="https://ntp.msn.com/edge/ntp?locale=en-US&title=New%20tab&dsp=1&sp=Bing&startpage=1&PC=U531">
+           <button id="HH">BROWSER</button>
+          </A>
+           <A href="https://github.com/login?client_id=0eef2fa971fd9f7d46a2&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D0eef2fa971fd9f7d46a2%26redirect_uri%3Dhttps%253A%252F%252Fapi.netlify.com%252Fauth%252Fdone%26scope%3Duser%253Aemail%26state%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwaWQiOiI1NmMzZjE1MDcxZTIwYTE4ZGIwMDAwMGYiLCJleHAiOjE3MDE1Nzc5MjYsImxvZ2luIjp0cnVlfQ.kjMR4FldU8kEtPwJvKs_Rg0ADK6JfdUx97VS_xvUTJ8">
+               <button id="HH">GITHUB</button>
+              </A>
+       <a href="https://www.google.com/search?q=netflix&rlz=1C1OKWM_enIN1084IN1084&oq=net&gs_lcrp=EgZjaHJvbWUqBwgCEAAYjwIyBggAEEUYOzIGCAEQRRg5MgcIAhAAGI8CMgcIAxAAGI8CMgcIBBAAGI8CMgYIBRBFGEAyBggGEEUYPDIGCAcQRRg80gEKNjUzMTFqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8">
+           <button id="HH">NETFLIX</button>
+          </a>
+       <a href="https://www.google.com/search?q=programming+hero+coding+fun&rlz=1C1OKWM_enIN1084IN1084&oq=&gs_lcrp=EgZjaHJvbWUqCQgCEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgkIBxBFGDsYwgPSAQkzMTkxajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8">
+       <button id="HH">PROGRAMMING</button>
+      </a>
+        <a href="https://www.google.com/search?q=000+web+host&rlz=1C1OKWM_enIN1084IN1084&oq=000+web+host&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCjIyODk1ajBqMTWoAgCwAgA&sourceid=chrome&ie=UTF-8">
+           <button id="hh"> LONCH WEB</button>
+          </a>                                                          
+        <A href="https://accounts.google.com/b/0/AddMailService">                                                                  
+           <BUTTON id="HH">E-MAIL</BUTTON>                                                          
+          </A>                                                             
+        <A href="https://maps.google.com/">                                                          
+           <button id="HH">MAP</button>                                                          
+          </A>                                                                       
+        <A href="https://news.google.com/">                                                                                        
+          <button id="HH">NEWS</button>                                                          
+        </A>                                                          
+       <A href="https://translate.google.com/">                                                           
+          <button id="HH">TRANSLATER</button>
+        </A> 
+       <A href="https://www.google.com/search?q=font+awesome&rlz=1C1OKWM_enIN1084IN1084&oq=&gs_lcrp=EgZjaHJvbWUqCQgDEEUYOxjCAzIJCAAQRRg7GMIDMgkIARBFGDsYwgMyCQgCEEUYOxjCAzIJCAMQRRg7GMIDMgkIBBBFGDsYwgMyCQgFEEUYOxjCAzIJCAYQRRg7GMIDMgkIBxBFGDsYwgPSAQkzODg1ajBqMTWoAgiwAgE&sourceid=chrome&ie=UTF-8">
+          <button id="HH">ICON WEB</button>
+        </A>                
+       <a href="https://drive.google.com/drive/my-drive?hl=en">                    
+          <button id="HH">DRIVE</button>
+        </a>             
+       <a href="https://web.whatsapp.com/">                                                                       
+          <button id="hh">whatsapp .com</button>
+        </a>                    
+          <A href="https://durable.co/">
+            <button id="HH">DURABLE AI</button>
+          </A>
+          <A href="https://www.google.com/search?q=APPIPIE.AI&rlz=1C1OKWM_enIN1084IN1084&oq=APPIPIE.AI&gs_lcrp=EgZjaHJvbWUyBggAEEUYOjIGCAEQRRg50gEKMzAzNDBqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8">
+         <button id="HH">APPIPIE.AI</button>
+        </A>
+         <A href="https://www.google.com/search?q=LUMA.AI&rlz=1C1OKWM_enIN1084IN1084&oq=LUMA.AI&gs_lcrp=EgZjaHJvbWUyBggAEEUYOjIGCAEQRRg50gEKMTc5ODhqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8">
+         <button id="HH">LUMA.AI</button>
+        </A>    
+         <A href="https://chat.openai.com/c/2624e7ea-6b67-4d55-9bdd-dd27461c62e4">
+            <BUTTON id="HH">CHAT GTP</BUTTON>
+          </A>
+            <A href="https://new.express.adobe.com/">
+            <button id="HH">PHOTO SHOP</button>
+          </A>
+ <div class="MM">
+  <center>
+      <marquee behavior="loop" direction="left" scroll amount="1S" HEIGHT="auto">
+    <h2>
+      ABOUT THE BUTTON IN </h2>
+        </marquee>
+  </center>
+      </div>
+      </div>
+      <div class="Cd">
+       <CENTER>
+        <H1 id="G">ABOUT  THE BUTTON AND WEBSIT</H1>
+       <U><span><H3 id="D">GOOGL:SEARCH ANY THING BEST BROWSER</H3></span></U>
+     <U><span><H3 id="D">AMAZON:SHOP THE PRODUCT BEST PRICE</H3></span></U>
+     <span><H3 id="D">flipkart:THE  BEST INDIA'S SHOPPING APP AND WEBSIT</H3></span>
+     <U><span><H3 id="D">  youtube: WATCH  Video AND FUN</H3></span></U>
+     <span><H3 id="D">meesho:THE  BEST INDIA'S SHOPPING APP AND WEBSIT</H3></span>
+     <span><H3 id="D">jio mart:THE  BEST INDIA'S SHOPPING APP AND WEBSIT</H3></span>
+     <U><span><H3 id="D">  instagram: WATCH  REEL'S AND FUN</H3></span></U>
+     <U><span><H3 id="D">  facebook: WATCH Video AND PHOTO'S </H3></span></U>
+     <span><H3 id="D">hotstar: WATCH THE MOVEIS AND WEBSRICES</H3></span>
+     <span><H3 id="D">GOOGL AI: AI ARE HELP THE WORK </H3></span>
+     <span><H3 id="D">dictionary:IS USED FOR translate  THE ENGLISH TO HINDI & HINDI TO ENGLISH </H3></span>
+     <span><H3 id="D">telegram: IT'S USED FOR CHATING AND OTHER</H3></span>
+     <span> <H3 id="D">MY WEB: WEBSIT OF MY SHOP </H3></span>
+     <span><H3 id="D">CHAT ME: A CHATING WEB FOR FUN</H3></span>
+     <span><H3 id="D">CODE Editor: A WEB IS USED FOR YOUR CODEING ON MOBILE & PC</H3></span>
+     <span><H3 id="D">GAME:A WEB IS USED FOR PLAYING GAME ON MOBILE & PC</H3></span>
+     <span><H3 id="D">E-CODING: THE MAKE FOR LEARN THE CODING</H3></span>
+     <span><H3 id="D">BROWSER:A BROWSER IS USED FOR SEARCH ANYTHING </H3></span>
+    <span><H3 id="D">GITHUB: A WEB IS USED FOR PUBLIC YOUR WEBSIT & ADD THE GIT</H3></span
+      <span><H3 id="D">NETFLIX: WATCH THE MOVEIS AND WEBSRICES</H3></span>
+    <span><H3 id="D">PROGRAMMING:A FULL FORM IS PROGRAMMING HERO FUN: CODE IS CODEING IN YOUR PHONE AND LEARN CODING LANGUAGES</span>
+   <span><H3 id="D">LONCH: A NAME IS 000 WEB HOST IS USED FOR PUBLISH YOUR WEBSIT</H3></span>
+   <span><H3 id="D">E-MAIL: E-MAIL IS USED BY SEND THE MASSAGES ON WORLD</H3></span>
+   <span><H3 id="D">MAP: A WEB IS USED BY FIND THE LOCATION OF ANOTHER</H3></span>
+   <span><H3 id="D">NEWS:A NEWS IS USED BY INFORMATIONO OF  WORLD</H3></span>
+   <span><H3 id="D">TRANSLATER: A WE IS USED FOR translate THE LETTER AND WORD</H3></span>
+   <span><H3 id="D">ICON WEB: NAME IS fontawesome A WEBSIT IS USED BY ICON OF YOUR WEBSIT </H3></span>
+   <span><H3 id="D">DRIVE: A WEB IS USED SAVE THE Document</H3></span>
+     <span><H3 id="D">whatsapp:A CHATING APP & WEBSIT</H3></span>
+        <span><H3 id="D">DURABLE: A AI IS MAKE WEBSITS OF YOU WITHOUT CODEING</H3></span>
+        <span><H3 id="D">APPI PIE:A AI IS USED FOR MAKE A APP</H3></span>
+      <span><H3 id="D">LUMA:A AI IS USED BY VIDEO </H3></span>   
+      <B><U><span><h3 id="D">CHAT GTP:SEARCH THE QUEASTION &  THE CODE OF ANOTHER</span></H3></U></B>
+        <span><H3 id="D">PHOTO SHOP: THE Edit THE PHOTO AND VIDEO </H3></span>
+      </CENTER>
+      </div>
+        <div class="lorem">
+          <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores exercitationem omnis nemo at quas porro eius iure dolor facilis,   
+        doloribus libero? Ut est veritatis autem obcaecati nemo pariatur laudantium at?</h5>
+                                                                                               
+        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores exercitationem omnis nemo at quas porro eius iure dolor facilis,
+          doloribus libero? Ut est veritatis autem obcaecati nemo pariatur laudantium at?</h5>
+                                                                                               
+        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores exercitationem omnis nemo at quas porro eius iure dolor facilis,
+       doloribus libero? Ut est veritatis autem obcaecati nemo pariatur laudantium at?</h5>
+                                                                                               
+       <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores exercitationem omnis nemo at quas porro eius iure dolor facilis,
+        doloribus libero? Ut est veritatis autem obcaecati nemo pariatur laudantium at?</h5>
+                                                                                           
+        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores exercitationem omnis nemo at quas porro eius iure dolor facilis,
+       doloribus libero? Ut est veritatis autem obcaecati nemo pariatur laudantium at?</h5>
+       </div>
+         <script>
+   //javascript alert BOX
+    alert ("WELCOME IN MY WEBSIT THE ALL IN WEB THANKYOU FOR VIWE MY WEBSIT AND I HAVE PROVID THE ALL WEBSITS AND AI TOOLS CLICK OK GO TO MY WEBSIT Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores exercitationem omnis nemo at quas porro eius iure dolor facilis, doloribus libero? Ut est veritatis autem obcaecati nemo pariatur laudantium at?");
+  
+  </script>
+</body>
+</html>
